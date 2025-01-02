@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProfitCalculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProfitCalculator_jar</output-path>
+    <root id="archive" name="ProfitCalculator.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$USER_HOME$/Documents/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="ProfitCalculator" />
+    </root>
+  </artifact>
+</component>
