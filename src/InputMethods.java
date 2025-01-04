@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class InputMethods {
-     private Scanner scanner = new Scanner(System.in);
-
+    private Scanner scanner = new Scanner(System.in);
     public int getInt(){
         boolean finished = false;
         int input = 0;
@@ -16,5 +15,12 @@ public class InputMethods {
             }
         }
         return input;
+    }
+
+    public int getPercentageSize(int original,double percentage){
+        double value = original * percentage;
+        return (int)Math.round(value);
+
+
     }
 }
